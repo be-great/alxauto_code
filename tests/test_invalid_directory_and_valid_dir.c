@@ -9,17 +9,15 @@
 void _test_invalid_valid_dir(int argc, char **argv)
 {
 	char validcommand[256], invalidcommand[256];
-    int resultvalid, resultinvalid;
-
+	int resultvalid, resultinvalid;
 
 	snprintf(validcommand, sizeof(validcommand),
 			"./build/alxauto -D . -H main.h");
 
-    snprintf(invalidcommand, sizeof(invalidcommand),
+	snprintf(invalidcommand, sizeof(invalidcommand),
 			"./build/alxauto -D sradnom -H main.h");
 
 	resultvalid = system(validcommand);
-    
 	if (resultvalid == 0)
 	{
 		printf(GREEN_TEXT "1- Test Passed: For valid directory."
@@ -30,9 +28,9 @@ void _test_invalid_valid_dir(int argc, char **argv)
 		printf(RED_TEXT "1- Test Failed:  For valid directory."
 				RESET_COLOR "\n");
 	}
-    resultinvalid = system(invalidcommand);
+	resultinvalid = system(invalidcommand);
 
-    if (resultinvalid != 0)
+	if (resultinvalid != 0)
 	{
 		printf(GREEN_TEXT "1- Test Passed: For invalid directory."
 				 RESET_COLOR "\n");
