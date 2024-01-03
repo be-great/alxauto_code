@@ -9,6 +9,3 @@
 ### 3- clean created files
     $ make clean
 
-## Struct
-
-    build : where the object place will be after compiled
