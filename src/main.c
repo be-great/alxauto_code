@@ -1,5 +1,15 @@
 #include "../usr/include/ahedlib.h"
 #include <dirent.h>
+
+/**
+ * extensioncheck - check if the string end with the ".h"
+ * @str: the string
+ * Return: 1 if ture , else return 0
+ */
+int extensioncheck(char *str)
+{
+
+}
 /**
 * main - Entry point of the program
 * @argc: number of argument pass
@@ -22,10 +32,16 @@ int main(int argc, char **argv)
 	dir = opendir(argv[2]);
 	if (dir == NULL)
 	{
-		perror("Not a vaild directory");
+		perror("Not a Vaild Directory");
 		exit(-1);
 	}
 	/*right extension of header*/
+	/*check extension*/
+	if (!extensioncheck(argv[4]))
+	{
+		perror("Not a Vaild Header Extension");
+		exit(-1);
+	}
 
 	return (0);
 }
