@@ -1,0 +1,5 @@
+Package: alxauto
+Version: 1.0
+Architecture: amd64
+Maintainer:Ahed Eisa <begreat5333@gmail.com>
+Description: A program that Auto copy function prototypes from c files into a header file "Example : main.h"
