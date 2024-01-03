@@ -1,11 +1,9 @@
 ## Runs :-
 
-### 1- To run test cases 
- 
-    $ make alxauto test
-
-### 2- Build the package 
+### 1- To create the executable file  
     $ make
-### 3- clean created files
+### 2- To run test cases
+    $ make test
+### 3- To clean created files
     $ make clean
 

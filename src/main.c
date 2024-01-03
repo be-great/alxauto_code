@@ -8,7 +8,7 @@
  */
 int extensioncheck(char *str)
 {
-
+	return (0);
 }
 /**
 * main - Entry point of the program
@@ -37,11 +37,11 @@ int main(int argc, char **argv)
 	}
 	/*right extension of header*/
 	/*check extension*/
-	if (!extensioncheck(argv[4]))
+	/* if (!extensioncheck(argv[4]))
 	{
-		perror("Not a Vaild Header Extension");
-		exit(-1);
-	}
+	 	perror("Not a Vaild Header Extension");
+	 	exit(-1);
+	 }*/
 
 	return (0);
 }
