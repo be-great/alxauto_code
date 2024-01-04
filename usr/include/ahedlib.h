@@ -6,8 +6,8 @@
 #include <stdlib.h>
 #include <stdlib.h>
 
-void generate_ctags(const char *directory_path);
-void process_tags(void);
-void copy_file_from_to(void);
+void generate_ctags(char *directory_path);
+void process_tags(char *directory_path);
+void copy_file_from_to(char *header_arg);
 
 #endif
