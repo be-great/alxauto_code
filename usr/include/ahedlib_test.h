@@ -11,4 +11,6 @@
 
 void _test_invalid_valid_dir(int argc, char **argv);
 void _test_invalid_args_valid_args(int argc, char **argv);
+void _test_invalid_valid_header(int argc, char **argv);
+
 #endif
