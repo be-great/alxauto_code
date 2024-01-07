@@ -4,6 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HEADER_H	main.h	2;"	d
 main	0-main.c	/^int main(void)$/;"	f	signature:(void)
 main	1-main.c	/^int main(void)$/;"	f	signature:(void)
 main	100-main.c	/^int main(void)$/;"	f	signature:(void)

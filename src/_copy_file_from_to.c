@@ -15,14 +15,15 @@ void copy_file_from_to(char *header_arg)
 		fprintf(stderr, "Error opening The header file\n");
 		exit(-1);
 	}
-	input_file = fopen("filtered_tag", "w");
+	input_file = fopen("filtered_tag", "r");
 	if (input_file == NULL)
 	{
 		fprintf(stderr, "Error opening The header file\n");
 		exit(-1);
 	}
-	fprintf(output_file, "#ifndef AUTO_HEADER\n");
-	fprintf(output_file, "#define AUTO_HEADER\n\n");
+	/*split the header argument with directory separator to get header name*/
+	fprintf(output_file, "#ifndef HEADER_H\n");
+	fprintf(output_file, "#define HEADER_H\n\n");
 
 	while (fgets(line, sizeof(line), input_file))
 	{

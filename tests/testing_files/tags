@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HEADER_H	test_0/main.h	2;"	d
+HEADER_H	test_1/main.h	2;"	d
+_strlen	test_0/2-add_node.c	/^int _strlen(const char *s)$/;"	f	signature:(const char *s)
+_strlen	test_0/3-add_node_end.c	/^int _strlen(const char *s)$/;"	f	signature:(const char *s)
+add_node	test_0/2-add_node.c	/^list_t *add_node(list_t **head, const char *str)$/;"	f	signature:(list_t **head, const char *str)
+add_node_end	test_0/3-add_node_end.c	/^list_t *add_node_end(list_t **head, const char *str)$/;"	f	signature:(list_t **head, const char *str)
+bmain	test_0/100-first.c	/^void __attribute__((constructor)) bmain()$/;"	f
+format	test_0/101-hello_holberton.asm	/^format:	db "%s", 10, 0$/;"	d
+free_list	test_0/4-free_list.c	/^void free_list(list_t *head)$/;"	f	signature:(list_t *head)
+list_len	test_0/1-list_len.c	/^size_t list_len(const list_t *h)$/;"	f	signature:(const list_t *h)
+main	test_0/101-hello_holberton.asm	/^main:$/;"	l
+main	test_0/main.c	/^int main(void)$/;"	f	signature:(void)
+main	test_1/0-main.c	/^int main(void)$/;"	f	signature:(void)
+main	test_1/1-main.c	/^int main(void)$/;"	f	signature:(void)
+main	test_1/100-main.c	/^int main(void)$/;"	f	signature:(void)
+main	test_1/2-main.c	/^int main(void)$/;"	f	signature:(void)
+main	test_1/3-main.c	/^int main(void)$/;"	f	signature:(void)
+main	test_1/4-main.c	/^int main(void)$/;"	f	signature:(void)
+msg	test_0/101-hello_holberton.asm	/^msg:    db      "Hello, Holberton", 0$/;"	d
+print_list	test_0/0-print_list.c	/^size_t print_list(const list_t *h)$/;"	f	signature:(const list_t *h)

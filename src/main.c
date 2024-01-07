@@ -73,9 +73,9 @@ int main(int argc, char **argv)
 	/*prototype function found into a temp file*/
 	generate_ctags(dir_arg);
 	process_tags(dir_arg);
-	// /* open the header file and add the neccessory "header gurads" and contiant*/
-	// copy_file_from_to(header_arg);
-	// /*remove unwanted files tags*/
+	/* open the header file and add the neccessory "header gurads" and contiant*/
+	 copy_file_from_to(header_arg);
+	/*remove unwanted files tags*/
 	// remove("tags");
 	// remove("filtered_tag");
 	return (0);
