@@ -5,14 +5,14 @@
 */
 void generate_ctags(char *directory_path)
 {
-	char command[256];
+	char command[300];
 	char new_dir[208];
 
 	strcpy(new_dir, directory_path);
 	strcat(new_dir, "tags");
 
 	snprintf(command, sizeof(command),
-				"ctags -R --c-kinds=+p --fields=+S --extra=+q -o %s", new_dir);
+				"ctags -R --c-kinds=+p --fields=+S --extra=+q --exclude='*.h' -o %s", new_dir);
 	/*execute the command*/
 	system(command);
 
